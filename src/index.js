@@ -7,16 +7,10 @@ import app from './consts';
 import './routes';
 
 import Stack from './stack';
+import Queue from './queue';
 
 const stack = new Stack();
-// console.log(stack.isEmpty);
-// console.log(stack.push(5));
-// console.log(stack.push(10));
-// console.log(stack.push(15));
-// console.log(stack.size);
-// console.log(stack.isEmpty);
-// console.log(stack.pop());
-// console.log(stack.peek());
+const queue = new Queue();
 
 app.listen(3000, () => {
   console.log('ES6 application listening on port 3000!');
